@@ -1,6 +1,5 @@
 string Password_Generator:: get_Password(){
 	    int charSize = characters.size();
-	    srand(time(0));
 	    int randomIndex;
 	    for(int i=0 ; i<length ; i++){
 	        randomIndex = rand() % charSize; // This rand() func^n will return a random value & according to that an random index from characters string will be selected .
