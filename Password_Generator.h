@@ -1,8 +1,4 @@
-#include<iostream>
-#include<cstdlib>
-#include<ctime>
-#include<string>
-using namespace std;
+
 
 class Password_Generator{
     string Password;
