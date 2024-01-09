@@ -1,3 +1,7 @@
+#include "Password_Generator.h"
+
+using namespace std;
+
 int main(){
 
     int length;
