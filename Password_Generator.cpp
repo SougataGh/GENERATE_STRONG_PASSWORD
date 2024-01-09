@@ -1,5 +1,9 @@
 #include "Password_Generator.h"
-
+#include<iostream>
+#include<cstdlib>
+#include<ctime>
+#include<string>
+using namespace std;
 string Password_Generator:: get_Password(){
 	    int charSize = characters.size();
 	    int randomIndex;
