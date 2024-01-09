@@ -1,3 +1,5 @@
+#include "Password_Generator.h"
+
 string Password_Generator:: get_Password(){
 	    int charSize = characters.size();
 	    int randomIndex;
